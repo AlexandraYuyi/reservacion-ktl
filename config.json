@@ -3,6 +3,7 @@
         "default": "asc",
         "seed_rooms": "./db_habitaciones.json",
         "seed_reserv": "./db_reserva.json",
-        "name_hotel": "JML Exclusive Hotel"
+        "name_hotel": "JML Exclusive Hotel",
+        "seed_hoteles": "./db_hoteles.json"
     }
 ]

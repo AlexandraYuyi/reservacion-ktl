@@ -8,6 +8,7 @@
     },
     "habitacion": {
       "id": "KTL-0020",
+      "hotel": "Hotel Gran Meliá Caracas",
       "fechaEntrada": "10/03/2023",
       "fechaSalida": "27/04/2023"
     }
@@ -21,6 +22,7 @@
     },
     "habitacion": {
       "id": "KTL-0010",
+      "hotel": "Hotel Gran Meliá Caracas",
       "fechaEntrada": "16/09/2023",
       "fechaSalida": "27/10/2023"
     }
@@ -34,6 +36,7 @@
     },
     "habitacion": {
       "id": "KTL-0001",
+      "hotel": "Hotel Gran Meliá Caracas",
       "fechaEntrada": "04/07/2022",
       "fechaSalida": "08/07/2022"
     }
@@ -47,6 +50,7 @@
     },
     "habitacion": {
       "id": "KTL-0005",
+      "hotel": "Hotel Gran Meliá Caracas",
       "fechaEntrada": "17/07/2023",
       "fechaSalida": "28/07/2023"
     }
@@ -60,6 +64,7 @@
     },
     "habitacion": {
       "id": "KTL-0016",
+      "hotel": "Hotel JW Marriott Caracas",
       "fechaEntrada": "24/12/2022",
       "fechaSalida": "07/01/2023"
     }
@@ -73,6 +78,7 @@
     },
     "habitacion": {
       "id": "KTL-0006",
+      "hotel": "Hotel JW Marriott Caracas",
       "fechaEntrada": "06/09/2023",
       "fechaSalida": "15/09/2023"
     }
@@ -86,6 +92,7 @@
     },
     "habitacion": {
       "id": "KTL-0011",
+      "hotel": "Hotel JW Marriott Caracas",
       "fechaEntrada": "05/02/2023",
       "fechaSalida": "17/02/2023"
     }
@@ -99,6 +106,7 @@
     },
     "habitacion": {
       "id": "KTL-0013",
+      "hotel": "Hotel JW Marriott Caracas",
       "fechaEntrada": "22/06/2023",
       "fechaSalida": "20/07/2023"
     }
@@ -112,6 +120,7 @@
     },
     "habitacion": {
       "id": "KTL-0003",
+      "hotel": "Hotel JW Marriott Caracas",
       "fechaEntrada": "05/02/2023",
       "fechaSalida": "17/02/2023"
     }
@@ -125,6 +134,7 @@
     },
     "habitacion": {
       "id": "KTL-0001",
+      "hotel": "Hotel Hilton Caracas",
       "fechaEntrada": "06/09/2023",
       "fechaSalida": "10/10/2023"
     }
@@ -138,6 +148,7 @@
     },
     "habitacion": {
       "id": "KTL-0020",
+      "hotel": "Hotel Hilton Caracas",
       "fechaEntrada": "05/06/2022",
       "fechaSalida": "26/07/2022"
     }
@@ -151,6 +162,7 @@
     },
     "habitacion": {
       "id": "KTL-0020",
+      "hotel": "Hotel Hilton Caracas",
       "fechaEntrada": "18/11/2023",
       "fechaSalida": "22/12/2023"
     }
@@ -164,6 +176,7 @@
     },
     "habitacion": {
       "id": "KTL-0013",
+      "hotel": "Hotel Hilton Caracas",
       "fechaEntrada": "20/11/2023",
       "fechaSalida": "05/12/2023"
     }
@@ -177,6 +190,7 @@
     },
     "habitacion": {
       "id": "KTL-0007",
+      "hotel": "Hotel Hilton Caracas",
       "fechaEntrada": "20/05/2023",
       "fechaSalida": "13/06/2023"
     }
@@ -190,6 +204,7 @@
     },
     "habitacion": {
       "id": "KTL-0010",
+      "hotel": "JML Exclusive Hotel",
       "fechaEntrada": "01/10/2022",
       "fechaSalida": "15/10/2022"
     }

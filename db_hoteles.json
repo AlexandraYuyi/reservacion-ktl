@@ -1,0 +1,17 @@
+[  
+      {
+        "nombre": "Hotel Gran Meliá Caracas",
+        "direccion": "Avenida Francisco de Miranda, 4750",
+        "telefono": "(212) 959-1234"
+      },
+      {
+        "nombre": "Hotel JW Marriott Caracas",
+        "direccion": "Avenida Principal de Las Mercedes, 10",
+        "telefono": "(212) 959-2345"
+      },
+      {
+        "nombre": "Hotel Hilton Caracas",
+        "direccion": "Avenida Libertador, 100",
+        "telefono": "(212) 959-3456"
+      }
+] 

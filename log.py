@@ -11,28 +11,19 @@ class Accion:
         """
         Devuelve le información del objeto de forma imprimible por consola.
         """ 
-        return "{} | {} - {}\n".format(self.date.strftime("%d/%m/%y %H:%M:%S"), self.tipo, self.mensaje)
+        return "{} | {} - {}\n".format(self.date.strftime("%d/%m/%y %H:%M:%S.%f"), self.tipo, self.mensaje)
     
     def guardar(self):
-        # Usamos una pila para almacenar las acciones
-        pila = []
         # Agregamos la nueva acción a la pila
         if not os.path.exists("log.txt"):
             open("log.txt", "x").close
+            with open("log.txt", "r+") as f:
+                contenido = f.read()
+                f.seek(0, 0)
+                f.write("{} | {} - {}\n".format(self.date.strftime("%d/%m/%y %H:%M:%S.%f"), self.tipo, self.mensaje).rstrip('\r\n') + '\n' + contenido)
 
         else:
-            with open("log.txt", "r") as f:
-                for linea in f:
-                    print(linea)
-                    pila.insert(0, linea)
-
-            with open("log.txt", "a") as f:
-                pila.append(self)
-                # Recorremos la pila y guardamos cada acción en el archivo
-                while pila:
-                    accion = pila.pop()
-                    print(type(accion))
-                    if type(accion) == str:
-                        f.write("{}".format(accion))
-                    else:
-                        f.write("{} | {} - {}\n".format(accion.date.strftime("%d/%m/%y %H:%M:%S"), accion.tipo, accion.mensaje))
+            with open("log.txt", "r+") as f:
+                contenido = f.read()
+                f.seek(0, 0)
+                f.write("{} | {} - {}\n".format(self.date.strftime("%d/%m/%y %H:%M:%S.%f"), self.tipo, self.mensaje).rstrip('\r\n') + '\n' + contenido)
